@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+}
+
+.container{
+  margin: 0 20vw;
+  overflow: hidden;
+  padding: 20px 40px;
+}
+
+.problem, .choice{
+  border: 2px solid rgb(6, 204, 204);
+  border-radius: 25px;
+}
+
+.problem{
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 50vw;
+
+}
+
+.choice{
+  padding: 0 20px;  
+}
+
+.choice p {
+  line-height: 20px;
+}
+
+.choices{
+  margin: 0 auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 10px;
+  justify-items: stretch;
+  align-items: stretch;
+  text-align: start;
+
+}
